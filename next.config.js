@@ -36,7 +36,7 @@ module.exports = withBundleAnalyzer({
       })
     }
   images: {
-    formats: ['image/avif', 'image/webp']
+    formats: ['image/avif']
   }
 
     return config
