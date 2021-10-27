@@ -35,6 +35,9 @@ module.exports = withBundleAnalyzer({
         'react-dom': 'preact/compat',
       })
     }
+  images: {
+    formats: ['image/avif', 'image/webp']
+  }
 
     return config
   },
